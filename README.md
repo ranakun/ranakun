@@ -1,7 +1,9 @@
-[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsM...)](https://rishavchanda.io)
+<p align="center">
+  <img width="950" height="300" src="https://github.com/ranakun/ranakun/blob/master/codefall.gif"/>
+</p>
 <h1 align="center">Hi 👋, I'm Rana Singh Shashwat</h1>
 <h3 align="center">A passionate blockchain developer from India</h3>
-<img align="right" alt="ethereum" width="500" src="https://avatars.githubusercontent.com/u/6250754?s=200&v=4">
+<img align="right" alt="ethereum" width="400" src="https://github.com/ranakun/ranakun/blob/master/eth.gif">
 
 - 📖 I’m currently learning **Soliidity,Golang,React,and Node.js**
 
@@ -9,7 +11,7 @@
 
 - 📫 How to reach me **rana.iiitb@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<!-- <h3 align="left">Connect with me:</h3> -->
 <p align="left">
 </p>
 
