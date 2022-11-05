@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Smart Contracts, Ethereum, and Decentralization**
 
-- 📫 How to reach me **rana.iiitb@gmail.com**
+- 📫 Mail me if you have something cool to discuss **rana.iiitb@gmail.com**
 
 <!-- <h3 align="left">Connect with me:</h3> -->
 <p align="left">
