@@ -2,7 +2,7 @@
   <img width="950" height="300" src="https://github.com/ranakun/ranakun/blob/master/codefall.gif"/>
 </p>
 <h1 align="center">Hi 👋, I'm Rana Singh Shashwat</h1>
-<h3 align="center">A passionate blockchain developer from India</h3>
+<h3 align="center">A passionate software developer from India</h3>
 <img align="right" alt="ethereum" width="400" src="https://github.com/ranakun/ranakun/blob/master/eth.gif">
 
 - 📖 I’m currently learning **Soliidity,Golang,React,and Node.js**
