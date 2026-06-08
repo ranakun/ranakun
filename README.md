@@ -7203,6 +7203,16 @@ endsolid shards
 <p align="center"><sub>MPC signing architecture audited to 0 Critical/High · threshold-BLS air-gapped signing presented at NBC-2025, NTU Singapore</sub></p>
 -->
 
+<details>
+<summary><b>Why a wrench? (Spoilers)</b></summary>
+<br>
+This is a reference to the classic <a href="https://xkcd.com/538/">xkcd 538: Security</a> comic ("$5 Wrench Attack"). In threshold signing and custody systems, we protect key shares using advanced cryptography, yet physical coercion remains a real-world vector.
+
+<p align="center">
+  <img src="https://imgs.xkcd.com/comics/security.png" alt="xkcd 538: Security" width="55%">
+</p>
+</details>
+
 ---
 
 <p align="center">
