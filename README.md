@@ -1,7 +1,7 @@
 <!-- github.com/ranakun — profile README. Image paths are repo-relative, not file-viewer URLs. -->
 
 <p align="center">
-  <img src="hero.svg" alt="Live threshold-signing ceremony — HSM key shares emit partial signatures that combine, at quorum, into one verified BLS threshold signature across an air-gap." width="100%">
+  <img src="hero.svg" alt="Live threshold-signing ceremony — of five key shares two are offline; the remaining three send partial signatures that combine, at a 3-of-5 quorum, into one signature that is then verified." width="100%">
 </p>
 
 <h2 align="center">Rana Singh Shashwat</h2>
@@ -16,14 +16,10 @@ threshold signature schemes, secure multiparty computation, and air-gapped HSM k
 #### The primitive I build around
 
 $$
-\sigma \;=\; \prod_{i \in Q}\sigma_i^{\,\lambda_i},
-\qquad
-\lambda_i \;=\; \prod_{\substack{j \in Q \\ j \neq i}} \frac{j}{\,j-i\,},
-\qquad
-e\!\left(\sigma,\, g_2\right) \;=\; e\!\left(H(m),\, \mathrm{pk}\right)
+f(0) = \sum_{i \in Q} \lambda_i f(i) \qquad \lambda_i = \prod_{j \in Q, j \neq i} \frac{j}{j - i}
 $$
 
-<sub>A $t$-of-$n$ quorum reconstructs one signature from partial signatures via Lagrange interpolation; BLS verification holds against the group public key — no single party ever holds the key.</sub>
+<sub>Lagrange interpolation at 0 reconstructs one secret from any <i>t</i> of <i>n</i> shares (|Q| = t) — the common core of every threshold scheme, independent of the underlying group: threshold ECDSA, EdDSA, BLS. No single party ever holds the key. (Shamir, <a href="https://dl.acm.org/doi/10.1145/359168.359176"><i>How to Share a Secret</i></a>, 1979.)</sub>
 
 ---
 
