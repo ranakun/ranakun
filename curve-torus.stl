@@ -1,35 +1,3 @@
-<!-- github.com/ranakun — profile README. Image paths are repo-relative, not file-viewer URLs. -->
-
-<p align="center">
-  <img src="hero.svg" alt="Live threshold-signing ceremony — HSM key shares emit partial signatures that combine, at quorum, into one verified BLS threshold signature across an air-gap." width="100%">
-</p>
-
-<h2 align="center">Rana Singh Shashwat</h2>
-<p align="center"><strong>Applied cryptography &amp; MPC</strong> — threshold signing &amp; HSM-backed custody infrastructure</p>
-
-<!-- DRAFT one-liner — confirm wording -->
-<p align="center">I build the signing layer for institutional digital-asset custody:<br>
-threshold signature schemes, secure multiparty computation, and air-gapped HSM key management.</p>
-
----
-
-#### The primitive I build around
-
-$$
-\sigma \;=\; \prod_{i \in Q}\sigma_i^{\,\lambda_i},
-\qquad
-\lambda_i \;=\; \prod_{\substack{j \in Q \\ j \neq i}} \frac{j}{\,j-i\,},
-\qquad
-e\!\left(\sigma,\, g_2\right) \;=\; e\!\left(H(m),\, \mathrm{pk}\right)
-$$
-
-<sub>A $t$-of-$n$ quorum reconstructs one signature from partial signatures via Lagrange interpolation; BLS verification holds against the group public key — no single party ever holds the key.</sub>
-
----
-
-#### An elliptic-curve group, rendered — drag to rotate
-
-```stl
 solid curve_torus
   facet normal 8.436100e-01 2.260446e-01 4.870585e-01
     outer loop
@@ -1040,13 +1008,3 @@ solid curve_torus
     endloop
   endfacet
 endsolid curve_torus
-```
-
----
-
-<!-- DRAFT optional proof anchor — enable/edit or delete -->
-<!-- <p align="center"><sub>MPC signing architecture · audited to 0 Critical/High · threshold-BLS air-gapped signing presented at NBC-2025, NTU Singapore</sub></p> -->
-
-<p align="center">
-  <sub>📍 Bangalore · ✉️ <a href="mailto:rana.iiitb@gmail.com">rana.iiitb@gmail.com</a> · ✍️ writeups soon</sub>
-</p>
