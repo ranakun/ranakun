@@ -7216,5 +7216,5 @@ This is a reference to the classic <a href="https://xkcd.com/538/">xkcd 538: Sec
 ---
 
 <p align="center">
-  <sub>📍 Bangalore · open to Singapore · ✉️ <a href="mailto:rana.iiitb@gmail.com">rana.iiitb@gmail.com</a> · ✍️ writeups soon</sub>
+  <sub>✉️ <a href="mailto:rana.rsrch@gmail.com">rana.rsrch@gmail.com</a> · ✍️ writeups soon</sub>
 </p>
