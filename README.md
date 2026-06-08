@@ -19,7 +19,7 @@ $$
 f(0) = \sum_{i \in Q} \lambda_i f(i) \qquad \lambda_i = \prod_{j \in Q, j \neq i} \frac{j}{j - i}
 $$
 
-<sub>Lagrange interpolation at 0 reconstructs one secret from any <i>t</i> of <i>n</i> shares (|Q| = t) — the common core of every threshold scheme, independent of the underlying group: threshold ECDSA, EdDSA, BLS. No single party ever holds the key. (Shamir, <a href="https://dl.acm.org/doi/10.1145/359168.359176"><i>How to Share a Secret</i></a>, 1979.)</sub>
+<sub>Lagrange interpolation at 0 reconstructs one secret from any <i>t</i> of <i>n</i> shares (|Q| = t) — the common core of every threshold scheme, independent of the underlying group: threshold ECDSA, EdDSA, BLS. No single party ever holds the key. (Shamir, <a href="https://web.mit.edu/6.857/OldStuff/Fall03/ref/Shamir-HowToShareASecret.pdf"><i>How to Share a Secret</i></a>, 1979.)</sub>
 
 ---
 
